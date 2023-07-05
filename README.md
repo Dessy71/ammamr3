@@ -16,4 +16,4 @@ This is the repository for the Amamrɛ Online Shop, an e-commerce website for fo
 - Sneaker community updates on exclusive releases and collaborations.
 - Elevate your style game with Amamrɛ footwear online showroom.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/826c0141-90a7-42ee-8c63-12144ed54748/deploy-status)](https://app.netlify.com/sites/amamr3onlineshowroom/deploys)
+?branch=[![Netlify Status](https://api.netlify.com/api/v1/badges/826c0141-90a7-42ee-8c63-12144ed54748/deploy-status)](https://app.netlify.com/sites/amamr3onlineshowroom/deploys)
