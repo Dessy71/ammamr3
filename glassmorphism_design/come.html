@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nike shop homepage</title>
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- google font -->
+  <!-- boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- boxicons -->
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <!-- swiper -->
+  <link rel="stylesheet" href="come.css">
+</head>
+
+<body>
+
+  <!-- header -->
+  <header>
+    <div class="container">
+      <div class="header__content" id="header__content">
+        <button class="btn-open-menu" id="btn-open-menu">
+          <i class="bx bx-menu"></i>
+        </button>
+        <div class="header__logo">
+          <img src="amamrɛ.svg" alt="logo">
+        </div>
+        <div class="typewriter typewriter-animation">amamrɛ collection</div>
+       
+        <nav>
+          <button class="btn-close-menu" id="btn-close-menu">
+            <i class="bx bx-left-arrow-alt"></i>
+          </button>
+          <ul>
+           
+            <li>
+              <a href="#">man</a>
+            </li>
+            <li>
+              <a href="#">woman</a>
+            </li>
+            <li>
+              <a href="#">kids</a>
+            </li>
+            <li>
+              <a href="#">collections</a>
+            </li>
+            <li>
+              <a href="#">contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__menu">
+          <ul>
+            <li>
+                <img src="search.png" alt="Search Icon">
+            </li>
+            <li>
+                <img src="cart.png" alt="Cart Icon">
+            </li>
+            <li>
+              <a href="index.html"><img src="ex.png"></a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header -->
+
+  <!-- hero slider -->
+  <section>
+    <div class="hero">
+      <div class="swiper hero__swiper">
+        <div class="swiper-wrapper">
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="hero__bg bg-image"
+              style="background-image: url(./assets/bg/lennart-uecker-49bZDF_EgJU-unsplash.jpg);"></div>
+            <div class="container">
+              <div class="hero__content">
+                <div class="hero__txt">
+                  <h2>Nike Max Air</h2>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum earum exercitationem, maiores magni
+                    molestiae consectetur sed quisquam temporibus nemo numquam dolorem recusandae, sit id optio culpa
+                    enim. Est, minus quia.</p>
+                  <button class="btn">go to collection</button>
+                </div>
+                <div class="hero__img">
+                  <img src="./assets/products/Nike-Shoes-Air-Max-PNG-Image.png" alt="product image">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="hero__bg bg-image"
+              style="background-image: url(./assets/bg/dulcey-lima-8Tx1FOj8xJc-unsplash.jpg);"></div>
+            <div class="container">
+              <div class="hero__content">
+                <div class="hero__txt">
+                  <h2>Nike Max Air</h2>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum earum exercitationem, maiores magni
+                    molestiae consectetur sed quisquam temporibus nemo numquam dolorem recusandae, sit id optio culpa
+                    enim. Est, minus quia.</p>
+                  <button class="btn">go to collection</button>
+                </div>
+                <div class="hero__img">
+                  <img src="./assets/products/Nike-Shoes-Air-Max-PNG-Photos.png" alt="product image">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="hero__bg bg-image"
+              style="background-image: url(./assets/bg/sherise-van-dyk-nS3HSEBrcik-unsplash.jpg);"></div>
+            <div class="container">
+              <div class="hero__content">
+                <div class="hero__txt">
+                  <h2>Nike Jordan</h2>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum earum exercitationem, maiores magni
+                    molestiae consectetur sed quisquam temporibus nemo numquam dolorem recusandae, sit id optio culpa
+                    enim. Est, minus quia.</p>
+                  <button class="btn">go to collection</button>
+                </div>
+                <div class="hero__img">
+                  <img src="./assets/products/Nike-Shoes-Jordan-PNG-Pic.png" alt="product image">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <!-- hero slider -->
+
+  <!-- top products -->
+  <section>
+    <div class="container">
+      <div class="top-product__header">
+        <h2 class="section__title no-margin">
+          Top pick
+        </h2>
+        <div class="top-product__swiper__btn" id="top-product__swiper__btn">
+          <div class="swiper-button btn-prev">
+            <i class="bx bx-chevron-left"></i>
+          </div>
+          <div class="swiper-button btn-next">
+            <i class="bx bx-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="swiper top-product__swiper">
+        <div class="swiper-wrapper">
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="product-card">
+              <div class="product__image">
+                <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c476cc72-d55e-4e19-aa48-12747074e831/blazer-mid-77-little-kids-shoes-2ZRDlx.png" alt="product image">
+              </div>
+              <div class="product__info">
+                <div class="product__details">
+                  <h5 class="product__name">Nike Blazer Mid' 77</h5>
+                  <span class="product__price">$85</span>
+                </div>
+                <div class="product__actions">
+                  <a href="https://www.nike.com/t/blazer-mid-77-little-kids-shoes-2ZRDlx/FN6967-100"><img src="pay.png"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="product-card">
+              <div class="product__image">
+                <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/07fef996-818b-47bc-95d7-f7d3d558c31c/lebron-witness-7-se-big-kids-shoes-XfZMxJ.png" alt="product image">
+              </div>
+              <div class="product__info">
+                <div class="product__details">
+                  <h5 class="product__name">LeBron Witness 7 SE</h5>
+                  <span class="product__price">$95</span>
+                </div>
+                <div class="product__actions">
+                  <a href="https://www.nike.com/t/lebron-witness-7-se-big-kids-shoes-XfZMxJ/FB8976-600"><img src="pay.png"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="product-card">
+              <div class="product__image">
+                <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e7f621f8-d62e-481c-9ca5-66c961d055df/air-force-1-shadow-womens-shoes-qK69hq.png" alt="product image">
+              </div>
+              <div class="product__info">
+                <div class="product__details">
+                  <h6 class="product__name" style="font-size: medium;">Nike Air Force 1 Shadow</h6>
+                  <span class="product__price">$130</span>
+                </div>
+                <div class="product__actions">
+                  <a href="https://www.nike.com/t/air-force-1-shadow-womens-shoes-qK69hq/DZ1847-001"><img src="pay.png"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="product-card">
+              <div class="product__image">
+                <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/097b0879-0181-4ac6-b77d-46ea3073e796/free-metcon-5-womens-training-shoes-h4Zl5h.png" alt="product image">
+              </div>
+              <div class="product__info">
+                <div class="product__details">
+                  <h5 class="product__name">Nike Free Metcon 5</h5>
+                  <span class="product__price">$120</span>
+                </div>
+                <div class="product__actions">
+                  <a href="https://www.nike.com/t/free-metcon-5-womens-training-shoes-h4Zl5h/DV3950-200"><img src="pay.png"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="product-card">
+              <div class="product__image">
+                <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ba4b6f9f-d994-4c90-a6b2-40b5c3e15f34/cosmic-unity-3-basketball-shoes-0zGs9z.png" alt="product image">
+              </div>
+              <div class="product__info">
+                <div class="product__details">
+                  <h5 class="product__name">Cosmic Unity 3</h5>
+                  <span class="product__price">$160</span>
+                </div>
+                <div class="product__actions">
+                  <a href="https://www.nike.com/t/cosmic-unity-3-basketball-shoes-0zGs9z/DV2757-500"><img src="pay.png"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="product-card">
+              <div class="product__image">
+                <img src="https://shopwice.com/wp-content/webp-express/webp-images/uploads/2023/06/Nike-Air-Max-90-Dia-de-los-Muertos-510x510.jpg.webp" alt="product image">
+              </div>
+              <div class="product__info">
+                <div class="product__details">
+                  <h5 class="product__name" style="font-size: small; text-align: left; ">Nike Air Max 90 Dia de los Muertos
+                  </h5>
+                  <span class="product__price">$40</span>
+                </div>
+                <div class="product__actions">
+                  <a href="https://shopwice.com/product/nike-air-max-90-dia-de-los-muertos/"><img src="pay.png"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="product-card">
+              <div class="product__image">
+                <img src="https://media.jdsports.com/i/jdsports/DR8784_100_P1?$default$&w=671&&h=671&bg=rgb(237,237,237)" alt="product image">
+              </div>
+              <div class="product__info">
+                <div class="product__details">
+                  <h5 class="product__name" style="font-size: small; text-align: left; ">NIKE ZOOM LEBRON NXXT GEN</h5>
+                  <span class="product__price">$160</span>
+                </div>
+                <div class="product__actions">
+                  <a href="https://www.jdsports.com/store/product/nike-zoom-lebron-nxxt-gen-basketball-shoes/prod2856946?styleId=DR8784&colorId=100"><img src="pay.png"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="product-card">
+              <div class="product__image">
+                <img src="https://media.jdsports.com/i/jdsports/DV1678_100_P1?$default$&w=671&&h=671&bg=rgb(237,237,237)" alt="product image">
+              </div>
+              <div class="product__info">
+                <div class="product__details">
+                  <h5 class="product__name" style="font-size: small; text-align: left; ">NIKE AIR VAPORMAX 2023 </h5>
+                  <span class="product__price">$210</span>
+                </div>
+                <div class="product__actions">
+                  <a href="https://www.jdsports.com/store/product/nike-air-vapormax-2023-flyknit-running-shoes/prod2857829?styleId=DV1678&colorId=100"><img src="pay.png"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="product-card">
+              <div class="product__image">
+                <img src="./assets/products/Nike-Shoes-PNG-File.png" alt="product image">
+              </div>
+              <div class="product__info">
+                <div class="product__details">
+                  <h5 class="product__name" style="font-size: small; text-align: left; ">Air Mag "Back To The Future"</h5>
+                  <span class="product__price">$38,132</span>
+                </div>
+                <div class="product__actions">
+                  <a href="https://www.farfetch.com/gh/shopping/men/nike-air-mag-back-to-the-future-sneakers-item-14164674.aspx?storeid=11218"><img src="pay.png"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="product-card">
+              <div class="product__image" >
+                <img src="https://m.media-amazon.com/images/I/51mZvwBMurL._AC_UL1200_.jpg" alt="product image">
+              </div>
+              <div class="product__info">
+                <div class="product__details">
+                  <h5 class="product__name" style="font-size: small; text-align: left; ">Nike VAPORFLY 3 DV4129-100 Vapor Fly 3 White</h5>
+                  <span class="product__price">$620</span>
+                </div>
+                <div class="product__actions">
+                  <a href="https://www.ubuy.com.gh/product/F3ZQ6FIMM-vaporfly-3-dv4129-100-vapor-fly-3-white-particle-gray-metallic-silver-dark-smoke-gray"><img src="pay.png"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="product-card">
+              <div class="product__image">
+                <img src="https://www.famousfootwear.com/blob/product-images/20000/36/77/9/36779_left_feed1000.jpg" alt="product image">
+              </div>
+              <div class="product__info">
+                <div class="product__details">
+                  <h5 class="product__name" style="font-size: small; text-align: left; ">Nike Court Vision Low</h5>
+                  <span class="product__price">$70</span>
+                </div>
+                <div class="product__actions">
+                  <a href="https://www.famousfootwear.com/product/nike-womens-court-vision-low-sneaker-1047957/white-pink-black-50265"><img src="pay.png"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- top products -->
+
+  <!-- category banner -->
+  <section>
+    <div class="container">
+      <h2 class="section__title">trending now</h2>
+      <div class="category__grid">
+        <!-- item -->
+        <div class="category__item category__top">
+          <div class="category__banner bg-image"
+            style="background-image: url(https://i.pinimg.com/564x/b4/d2/db/b4d2db7c4d1a738df2bbba725127459a.jpg);"></div>
+          <div class="category__overlay"></div>
+          <div class="category__border"></div>
+          <div class="category__txt">Nike Air Max 90 Viotech</div>
+        </div>
+        <!-- item -->
+        <!-- item -->
+        <div class="category__item category__left">
+          <div class="category__banner bg-image"
+            style="background-image: url(./assets/bg/mm.jpeg);"></div>
+          <div class="category__overlay"></div>
+          <div class="category__border"></div>
+          <div class="category__txt">Nike Cortez</div>
+        </div>
+        <!-- item -->
+        <!-- item -->
+        <div class="category__item category__right">
+          <div class="category__banner bg-image"
+            style="background-image: url(./assets/bg/ked.jpeg);"></div>
+          <div class="category__overlay"></div>
+          <div class="category__border"></div>
+          <div class="category__txt">   Jordan 1 Volt Gold  </div>
+        </div>
+        <!-- item -->
+      </div>
+    </div>
+  </section>
+  <!-- category banner -->
+
+  <!-- promotion product -->
+  <section>
+    <div class="container">
+      <div class="hero__content">
+        <div class="hero__txt">
+          <h2>Nike Foam</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum earum exercitationem, maiores magni
+            molestiae consectetur sed quisquam temporibus nemo numquam dolorem recusandae, sit id optio culpa
+            enim. Est, minus quia.</p>
+          <button class="btn">go to collection</button>
+        </div>
+        <div class="hero__img">
+          <img src="./assets/products/Nike-Shoes-PNG-File.png" alt="product image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- promotion product -->
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="footer__col">
+          <a href="#" class="logo">
+            <img src="amamrɛ.svg" alt="logo">
+          </a>
+          <div class="social-list">
+            <a href="https://github.com/Dessy71" class="">
+              <i class="bx bxl-github"></i>
+          </a>
+         
+          <a href="https://www.instagram.com/7th.desmond/" class="">
+              <i class="bx bxl-instagram"></i>
+          </a>
+          <a href="https://wa.me/+233208614844/?text=Hello%20there, %20texting%20from%20Amamrɛ%20Online....%20My%20Name%20is%20__" class="">
+              <i class="bx bxl-whatsapp"></i>
+          </a>
+         
+          </div>
+        </div>
+        <div class="footer__col">
+          <div class="footer__header">info</div>
+          <ul class="footer__menu">
+            <li>
+              <a href="#">Find a store</a>
+            </li>
+            <li>
+              <a href="#">Discount</a>
+            </li>
+            <li>
+              <a href="#">Gift</a>
+            </li>
+            <li>
+              <a href="#">Feedback</a>
+            </li>
+            <li>
+              <a href="#">Become a member</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <div class="footer__header">Shop</div>
+          <ul class="footer__menu">
+            <li>
+              <a href="#">Man</a>
+            </li>
+            <li>
+              <a href="#">Woman</a>
+            </li>
+            <li>
+              <a href="#">Kids</a>
+            </li>
+            <li>
+              <a href="#">Collections</a>
+            </li>
+            <li>
+              <a href="#">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <div class="footer__header">About</div>
+          <ul class="footer__menu">
+            <li>
+              <a href="#">News</a>
+            </li>
+            <li>
+              <a href="#">Careers</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
+
+  <!-- swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- swiper -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
