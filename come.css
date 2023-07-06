@@ -406,7 +406,7 @@
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-    padding-top: 1rem;
+    padding-top: 4rem;
     padding-bottom: 4rem;
     color: var(--color-white);
   }
