@@ -26,7 +26,7 @@
   }
   body {
     padding-top: var(--header-height);
-    background-image: radial-gradient(ellipse at center, rgb(100, 99, 97), rgb(250, 241, 239), rgb(228, 229, 241), rgb(22, 221, 105));
+    background-image: radial-gradient(ellipse at center, rgb(243, 131, 131), rgb(161, 153, 236), rgb(228, 229, 241), rgb(22, 221, 105));
   }
   
   img {
