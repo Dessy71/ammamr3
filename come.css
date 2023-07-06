@@ -652,7 +652,7 @@
     background-color: rgb(78, 176, 180);
   }
   .typewriter {
-    background: linear-gradient(to right, rgb(5, 250, 5), rgb(63, 63, 235));
+    background: linear-gradient(to right, rgb(5, 250, 5),rgb(87, 5, 46), rgb(63, 63, 235));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     overflow: hidden; /* Hide overflowing text */
@@ -668,13 +668,13 @@
   }
   
   .typewriter-animation {
-    animation: typewriter 2s steps(40) infinite;
+    animation: typewriter 3.5s steps(40) infinite;
     
   }
   
   @keyframes typewriter {
     from {
-      width: 70%;
+      width: 45%;
     }
     to {
       width: 100%;
