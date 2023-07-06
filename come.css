@@ -188,6 +188,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    
   }
   
   .hero__txt h2 {
@@ -199,6 +200,9 @@
   .hero__txt p {
     line-height: 1.5;
     margin-bottom: 5rem;
+    background: linear-gradient(to left, rgb(25, 211, 25),rgb(183, 26, 214), rgb(35, 35, 219));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
   .hero__bg {
@@ -402,8 +406,8 @@
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
     color: var(--color-white);
   }
   
