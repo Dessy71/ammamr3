@@ -661,7 +661,7 @@
     background-color: rgb(78, 176, 180);
   }
   .typewriter {
-    background: linear-gradient(to right, rgb(5, 250, 5),rgb(87, 5, 46), rgb(63, 63, 235));
+    background: radial-gradient(circle, rgb(250, 14, 14),orange,rgb(236, 4, 43), rgb(63, 63, 235), rgb(5, 250, 5));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     overflow: hidden; /* Hide overflowing text */
