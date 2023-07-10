@@ -369,7 +369,15 @@
                         })
                              .then(() => {
                                 alert("User added successfully");
-                                setTimeout(() => {
+
+                                 // Reset the sign-up form fields
+                                        nameInput.value = "";
+                                        emailInput.value = "";
+                                        usernameInput.value = "";
+                                        passwordInput.value = "";
+                               
+                               // Redirect to the home page after a delay
+                                        setTimeout(() => {
                                     window.location = "home.html"; // Replace "home.html" with the desired destination URL
                                 }, 2000); // Delay of 2000 milliseconds (2 seconds)
                             })
