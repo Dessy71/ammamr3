@@ -367,9 +367,13 @@
                             password: encPass()
 
                         })
-                        .then(() => {
-                            alert("User added successfully");
-                        })
+                             .then(() => {
+                                alert("User added successfully");
+                                setTimeout(() => {
+                                    window.location = "home.html"; // Replace "home.html" with the desired destination URL
+                                }, 2000); // Delay of 2000 milliseconds (2 seconds)
+                            })
+
                         .catch((error) => {
                             alert("Error: " + error);
                         })
