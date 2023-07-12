@@ -1,9 +1,11 @@
-README
 # Amamrɛ Online Shop
 
 ![Amamrɛ Logo](read.jpg)
 
 This is the repository for the Amamrɛ Online Shop, an e-commerce website for footwear. The project is built using HTML, CSS, JavaScript, Bootstrap, and integrates Firebase for login and signup page authentication.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/826c0141-90a7-42ee-8c63-12144ed54748/deploy-status)](https://app.netlify.com/sites/amamr3onlineshowroom/deploys?branch=main)
+
 
 ## Features
 
@@ -48,8 +50,6 @@ This is the repository for the Amamrɛ Online Shop, an e-commerce website for fo
  	</tbody>
  </table>
  
-[![Netlify Status](https://api.netlify.com/api/v1/badges/826c0141-90a7-42ee-8c63-12144ed54748/deploy-status)](https://app.netlify.com/sites/amamr3onlineshowroom/deploys?branch=main)
-
 <p align="center">
 	Thanks for reading!
 </p>
