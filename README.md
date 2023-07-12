@@ -1,7 +1,7 @@
 # Amamrɛ Online Shop
 
 
-<table>
+<table  style="border-collapse: collapse;">
 	<tbody>
 	<tr>
 	<td align="Center" width="50%">
@@ -57,6 +57,8 @@
 - Sneaker community updates on exclusive releases and collaborations.
 - Elevate your style game with Amamrɛ footwear online showroom.
 </i>
+
+# built with
 
  <table>
  	<tbody>
