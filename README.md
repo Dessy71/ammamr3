@@ -1,16 +1,5 @@
 # Amamrɛ Online Shop
 
-![Amamrɛ Logo](read1.jpg)
-
-![Amamrɛ Logo](read2.jpg)
-
-![Amamrɛ Logo](read3.jpg)
-
-![Amamrɛ Logo](read4.jpg)
-
-![Amamrɛ Logo](read5.jpg)
-
-![Amamrɛ Logo](read6.jpg)
 
 <table>
 	<tbody>
@@ -19,7 +8,37 @@
  				<a href="#" target="_blank" rel="noreferrer">
  					<img src="read1.jpg" width="350" height="250" alt="HTML">
  				</a> <br> login page
- 			</td>
+ 	</td>
+	
+	<td align="Center" width="50%">
+ 				<a href="#" target="_blank" rel="noreferrer">
+ 					<img src="read2.jpg" width="350" height="250" alt="HTML">
+ 				</a> <br> home page
+ 	</td>
+	
+	<td align="Center" width="50%">
+ 				<a href="#" target="_blank" rel="noreferrer">
+ 					<img src="read3.jpg" width="350" height="250" alt="HTML">
+ 				</a> <br> Main page
+ 	</td>
+	
+	<td align="Center" width="50%">
+ 				<a href="#" target="_blank" rel="noreferrer">
+ 					<img src="read4.jpg" width="350" height="250" alt="HTML">
+ 				</a> <br> Product section
+ 	</td>
+	
+	<td align="Center" width="50%">
+ 				<a href="#" target="_blank" rel="noreferrer">
+ 					<img src="read5.jpg" width="350" height="250" alt="HTML">
+ 				</a> <br> Trendy product section
+ 	</td>
+	
+	<td align="Center" width="50%">
+ 				<a href="#" target="_blank" rel="noreferrer">
+ 					<img src="read6.jpg" width="350" height="250" alt="HTML">
+ 				</a> <br> footer section
+ 	</td>
 	
 	</tr>
 	</tbody>
