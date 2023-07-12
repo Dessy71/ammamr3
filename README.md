@@ -1,6 +1,6 @@
 # Amamrɛ Online Shop
 
-![Amamrɛ Logo](read.jpg)
+![Amamrɛ Logo](read1.jpg)(read2.jpg)(read3.jpg)(read4.jpg)(read5.jpg)(read6.jpg)
 
 This is the repository for the Amamrɛ Online Shop, an e-commerce website for footwear. The project is built using HTML, CSS, JavaScript, Bootstrap, and integrates Firebase for login and signup page authentication.
 
