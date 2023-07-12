@@ -40,21 +40,12 @@ This is the repository for the Amamrɛ Online Shop, an e-commerce website for fo
  					<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript">
  				</a> <br> JavaScript
  			</td>
- 		</tr>
- 	</tbody>
- </table>
- <table>
- 	<tbody>
- 		<tr>
- 			
- 			<td align="Center" width="30%">
- 				<a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
+			<td align="Center" width="30%">
+ 				<a href="https://console.firebase.google.com/?_gl=1*1ltdm54*_ga*MTQyNzMyOTUxNS4xNjg3NTAzMDAz*_ga_CW55HF8NVT*MTY4OTE4MzMzMS4xMC4wLjE2ODkxODMzMzEuMC4wLjA." target="_blank" rel="noreferrer">
  					<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg" width="36" height="36" alt="Firebase">
  				</a> <br> Firebase
- 			</td>
  		</tr>
  	</tbody>
  </table>
-
  
 [![Netlify Status](https://api.netlify.com/api/v1/badges/826c0141-90a7-42ee-8c63-12144ed54748/deploy-status)](https://app.netlify.com/sites/amamr3onlineshowroom/deploys?branch=main)
