@@ -15,7 +15,8 @@
  					<img src="read2.jpg" width="350" height="250" alt="HTML">
  				</a> <br> home page
  	</td>
-	
+	</tr>
+	<tr>
 	<td align="Center" width="50%">
  				<a href="#" target="_blank" rel="noreferrer">
  					<img src="read3.jpg" width="350" height="250" alt="HTML">
@@ -27,7 +28,9 @@
  					<img src="read4.jpg" width="350" height="250" alt="HTML">
  				</a> <br> Product section
  	</td>
+	</tr>
 	
+	<tr>
 	<td align="Center" width="50%">
  				<a href="#" target="_blank" rel="noreferrer">
  					<img src="read5.jpg" width="350" height="250" alt="HTML">
