@@ -12,6 +12,19 @@
 
 ![Amamrɛ Logo](read6.jpg)
 
+<table>
+	<tbody>
+	<tr>
+	<td align="Center" width="30%">
+ 				<a href="#" target="_blank" rel="noreferrer">
+ 					<img src="read1.jpg" width="36" height="36" alt="HTML">
+ 				</a> <br> login page
+ 			</td>
+	
+	</tr>
+	</tbody>
+</table>
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/826c0141-90a7-42ee-8c63-12144ed54748/deploy-status)](https://app.netlify.com/sites/amamr3onlineshowroom/deploys?branch=main)
 
 
