@@ -17,7 +17,7 @@
 	<tr>
 	<td align="Center" width="50%">
  				<a href="#" target="_blank" rel="noreferrer">
- 					<img src="read1.jpg" width="100" height="100" alt="HTML">
+ 					<img src="read1.jpg" width="350" height="250" alt="HTML">
  				</a> <br> login page
  			</td>
 	
