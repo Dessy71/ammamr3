@@ -35,8 +35,8 @@ This is the repository for the Amamrɛ Online Shop, an e-commerce website for fo
  					<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg" width="36" height="36" alt="Bootstrap CSS">
  				</a> <br> Bootstrap CSS
  			</td>
- 		</tr>
- 	</tbody>
+ 		
+ 
  </table>
  <table>
  	<tbody>
