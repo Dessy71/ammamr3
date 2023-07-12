@@ -27,7 +27,7 @@
 - Elevate your style game with Amamrɛ footwear online showroom.
 
 
-## This is the repository for the Amamrɛ Online Shop, an e-showroom website for footwear. The project is built using HTML, CSS, JavaScript, Bootstrap, and integrates Firebase for login and signup page authentication.
+## <i>This is the repository for the Amamrɛ Online Shop, an e-showroom website for footwear. The project is built using HTML, CSS, JavaScript, Bootstrap, and integrates Firebase for login and signup page authentication.</i>
 
  <table>
  	<tbody>
