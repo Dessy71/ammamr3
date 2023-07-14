@@ -6,36 +6,36 @@
 	<tr>
 	<td style="border: none; border-top: hidden;" align="Center" width="50%">
  				<a href="#" target="_blank" rel="noreferrer">
- 					<img src="read1.jpg" width="400" height="250" alt="HTML">
+ 					<img src="./assets/products/read1.jpg" width="400" height="250" alt="HTML">
  				</a> <br> login page
  	</td>
 		<td style="border: none; border-top: hidden;" align="Center" width="50%">
  				<a href="#" target="_blank" rel="noreferrer">
- 					<img src="read2.jpg" width="400" height="250" alt="HTML">
+ 					<img src="./assets/products/read2.jpg" width="400" height="250" alt="HTML">
  				</a> <br> home page
  	</td>
 	</tr>
 	<tr>
 	<td style="border: none; border-top: hidden;" align="Center" width="50%">
  				<a href="#" target="_blank" rel="noreferrer">
- 					<img src="read3.jpg" width="400" height="250" alt="HTML">
+ 					<img src="./assets/products/read3.jpg" width="400" height="250" alt="HTML">
  				</a> <br> Main page
  	</td>
 		<td style="border: none; border-top: hidden;" align="Center" width="50%">
  				<a href="#" target="_blank" rel="noreferrer">
- 					<img src="read4.jpg" width="400" height="250" alt="HTML">
+ 					<img src="./assets/products/read4.jpg" width="400" height="250" alt="HTML">
  				</a> <br> Product section
  	</td>
 	</tr>
 		<tr>
 	<td style="border: none; border-top: hidden;" align="Center" width="50%">
  				<a href="#" target="_blank" rel="noreferrer">
- 					<img src="read5.jpg" width="400" height="250" alt="HTML">
+ 					<img src="./assets/products/read5.jpg" width="400" height="250" alt="HTML">
  				</a> <br> Trendy product section
  	</td>
 		<td style="border: none; border-top: hidden;" align="Center" width="50%">
  				<a href="#" target="_blank" rel="noreferrer">
- 					<img src="read6.jpg" width="400" height="250" alt="HTML">
+ 					<img src="./assets/products/read6.jpg" width="400" height="250" alt="HTML">
  				</a> <br> footer section
  	</td>
 		</tr>
