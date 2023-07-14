@@ -62,7 +62,7 @@ a{
 .main_section {
     width: 100%;
     min-height: 100vh;
-    background-image: var(--img-gradient), url("bg.jpg");
+    background-image: var(--img-gradient), url("./assets/products/bg.jpg");
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
