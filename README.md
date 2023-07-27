@@ -42,11 +42,6 @@
 	</tbody>
 </table>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/826c0141-90a7-42ee-8c63-12144ed54748/deploy-status)](https://app.netlify.com/sites/amamr3onlineshowroom/deploys?branch=main)
-
-
-
-
 ## <i>Features
 - Browse and discover the latest and trendiest Nike shoes in town.
 - Curated collection of sneakers, including timeless classics and innovative designs.
