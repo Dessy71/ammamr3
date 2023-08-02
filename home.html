@@ -185,13 +185,12 @@
     let charIndex = 0;
     function typeWriter() {
       if (charIndex < welcomeText.length) {
-        welcomeMsg.textContent += welcomeText.charAt(charIndex);
         charIndex++;
         setTimeout(typeWriter, 100); // Adjust typing speed here (in milliseconds)
       }
     }
 
-    typeWriter();
+    
 
     // JavaScript code for logo animation
     const logo = document.getElementById('logo');

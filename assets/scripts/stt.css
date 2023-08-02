@@ -62,7 +62,7 @@ a{
 .main_section {
     width: 100%;
     min-height: 100vh;
-    background-image: var(--img-gradient), url("./assets/products/bg.jpg");
+    background-image: var(--img-gradient), url("./assets/svg/bgg.svg");
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -388,7 +388,7 @@ a{
 /* Set the same background color as the body */
 footer {
     background: linear-gradient(to right, rgb(5, 250, 5), rgb(63, 63, 235));
-    color: var(--color-txt-main);
+    color: whitesmoke;
     opacity: 70%;
   }
   
