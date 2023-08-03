@@ -717,7 +717,7 @@
     background-color: rgb(78, 176, 180);
   }
   .typewriter {
-    background: radial-gradient(circle, rgb(250, 14, 14),orange,rgb(236, 4, 43), rgb(63, 63, 235), rgb(5, 250, 5));
+    background: radial-gradient(circle, rgb(245, 10, 10), skyblue );
     background-clip: text;
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
@@ -729,14 +729,28 @@
     text-transform: uppercase;
     font-weight: bolder;
     cursor: pointer;
-    
+    position: absolute; /* Set the typewriter as absolute position */
+    left: 80px; /* Adjust the value to position the element from the left */
+    top: 50%; /* Position the element vertically in the middle of the navbar */
+    transform: translateY(-50%);
+
+
     
   }
+  /*
   
   .typewriter-animation {
     animation: typewriter 3.5s steps(40) infinite;
     
-  }
+  
+      p{	
+        font-size: 2rem;
+       
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      
   
   @keyframes typewriter {
     from {
@@ -745,4 +759,4 @@
     to {
       width: 100%;
     }
-  }
+  }*/
