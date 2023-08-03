@@ -13,8 +13,15 @@
       margin: 0;
       padding: 0;
       background-color: #000;
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      font-style: italic;
+      font-weight: bolder;
+      font-size-adjust: inherit;
+      text-align: center;
     }
     
+     
     #background-video {
       position: fixed;
       top: 0;
@@ -24,7 +31,34 @@
       object-fit: cover;
       z-index: -1;
     }
-    
+
+ /* Styles for larger screens */
+ @media screen and (min-width: 768px) {
+      h1 {
+        font-size: 4rem;
+        white-space: nowrap;
+      }
+    }
+
+    /* Styles for medium screens */
+    @media screen and (max-width: 767px) {
+      h1 {
+        font-size: 3rem;
+        white-space:pre-line;
+      }
+    }
+
+    /* Styles for smaller screens */
+    @media screen and (max-width: 480px) {
+      h1 {
+        font-size: 2rem;
+        white-space:pre-line;
+      }
+      #slide-through-tab {
+        margin-top: 5rem;
+      }
+    }
+
     #content {
       display: flex;
       flex-direction: column;
@@ -45,7 +79,7 @@
       font-weight: 900;
       margin-bottom: 1rem;
       overflow: hidden; /* Ensures the typewriter effect */
-      white-space: nowrap; /* Prevents line breaks */
+      /* Prevents line breaks */
             animation: typewriter 10s steps(40) infinite;
             background: linear-gradient(to right, rgb(5, 250, 5), rgb(63, 63, 235), green,rgb(243, 29, 65));
             background-clip: text;
@@ -157,7 +191,8 @@
 </head>
 
 <body>
-  <video id="background-video" src="./assets/products/nike.mp4" autoplay loop muted></video>
+  <video id="background-video" src="./assets/products/nike.mp4" autoplay loop muted playsinline></video>
+
 
   <div id="content">
     <img id="logo" src="./assets/svg/amamrɛ.svg" alt="Nike Logo">
