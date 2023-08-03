@@ -18,7 +18,7 @@ a{
     --bg-color : #033d4c;
     --primary: #0cb9b9;
     --secondary: #dddddd;
-    --tertiary: #a6a6a6;
+    --tertiary: #a6a6a6; 
     --img-gradient: linear-gradient(to right, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.80));
 }
 
@@ -62,7 +62,8 @@ a{
 .main_section {
     width: 100%;
     min-height: 100vh;
-    background-image: var(--img-gradient), url("./assets/svg/bgg.svg");
+    /* Add the background image */
+    
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -175,7 +176,7 @@ a{
     padding-top: 1rem;
     margin-bottom: 30px; /* Adjust the margin-bottom value as needed */
     margin-top: 120px;
-    justify-content: center;
+   
      
 }
 .authentication_section:hover{
