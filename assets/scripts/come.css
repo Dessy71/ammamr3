@@ -204,7 +204,8 @@
     line-height: 1.5;
     margin-bottom: 5rem;
     background: linear-gradient(to left, rgb(25, 211, 25),rgb(183, 26, 214), rgb(35, 35, 219));
-    -webkit-background-clip: text;
+    background-clip: text;
+-webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
   }
   
@@ -662,7 +663,8 @@
   }
   .typewriter {
     background: radial-gradient(circle, rgb(250, 14, 14),orange,rgb(236, 4, 43), rgb(63, 63, 235), rgb(5, 250, 5));
-    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
     overflow: hidden; /* Hide overflowing text */
       white-space: nowrap; /* Keep the text in one line */
