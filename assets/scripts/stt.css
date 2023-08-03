@@ -204,7 +204,8 @@ a{
 .desc{
     font-size: 0.98rem;
     background: linear-gradient(to right, rgb(5, 250, 5), rgb(63, 63, 235));
-    -webkit-background-clip: text;
+    background-clip: text;
+-webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
     letter-spacing: 0.06rem;
 }
