@@ -167,12 +167,16 @@ a{
     /*position: relative; /* Add this line */
      /* Add this */
    
-    position: relative;
-     top: 100px; /* Adjust the top value as needed */
+     position: relative;
+     /* Adjust the bottom value as needed */
     left: 0;
     right: 0;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    margin-bottom: 30px; /* Adjust the margin-bottom value as needed */
+    margin-top: 120px;
+    justify-content: center;
+     
 }
 .authentication_section:hover{
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
@@ -386,30 +390,24 @@ a{
     }
 }
 /* Set the same background color as the body */
-footer {
-    background: linear-gradient(to right, rgb(5, 250, 5), rgb(63, 63, 235));
-    color: whitesmoke;
-    opacity: 70%;
-  }
-  
-  .footer {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    position: fixed;
-    bottom: 0;
-  }
-  
-  .footer__col {
-    width: 100%;
+/* footer section styling */
+footer{
+    background: rgb(88, 86, 86) !important;
+    padding: 7px;
+    color: #fff;
     text-align: center;
-    font-size: 1rem;
-    font-weight: bolder;
-    color: hotpink;
-  }
-  
+    bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer span a{
+    color: #0bc6f5;
+    text-decoration: underline;
+}
+footer span a:hover{
+    text-decoration: underline;
+    color: rgb(15, 238, 45);
+}
+
   
 
 /* End */
