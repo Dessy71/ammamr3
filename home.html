@@ -60,11 +60,18 @@
     @media screen and (max-width: 480px) {
       h1 {
         font-size: 1.3rem;
-        white-space:nowrap;
-        font-weight:670;
+        white-space: nowrap;
+        font-weight: 670;
+      }
+      #content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
       }
       #slide-through-tab {
-        margin-top: 25rem;
+        margin-top: 20rem; /* Push the element to the bottom */
       }
     }
 
@@ -84,7 +91,7 @@
     
     h1 {
       
-      margin-bottom: -10rem;
+      
       overflow: hidden; /* Ensures the typewriter effect */
       /* Prevents line breaks */
             animation: typewriter 10s steps(40) infinite;
