@@ -315,6 +315,61 @@
     font-size: 2rem;
     color: var(--color-txt-gray);
   }
+
+  
+/* Styles for larger screens */
+@media screen and (min-width: 768px) {
+  .top-product__swiper__btn {
+    justify-content: flex-end;
+  }
+
+  .top-product__swiper__btn .btn-next {
+    margin-left: 10px;
+  }
+
+  .top-product__swiper__btn .swiper-button {
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-gray-bg);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top-product__swiper__btn .swiper-button i {
+    font-size: 2rem;
+    color: var(--color-txt-gray);
+  }
+}
+
+/* Styles for medium screens */
+@media screen and (max-width: 767px) {
+  .top-product__header {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .top-product__swiper__btn {
+    justify-content: space-between;
+  }
+
+  .top-product__swiper__btn .btn-next {
+    margin-left: 0;
+  }
+}
+
+/* Styles for smaller screens */
+@media screen and (max-width: 480px) {
+  .top-product__swiper__btn {
+    flex-direction: column;
+  }
+
+  .top-product__swiper__btn .btn-next {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
   
   /* product swiper */
   
