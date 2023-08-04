@@ -346,7 +346,7 @@
 /* Styles for medium screens */
 @media screen and (max-width: 767px) {
   .top-product__header {
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 1rem;
   }
 
@@ -362,12 +362,16 @@
 /* Styles for smaller screens */
 @media screen and (max-width: 480px) {
   .top-product__swiper__btn {
-    flex-direction: column;
+    flex-direction:row;
+    margin-bottom: 1rem;
+  }
+  .top-product__swiper__btn {
+    justify-content: space-between;
   }
 
   .top-product__swiper__btn .btn-next {
     margin-left: 0;
-    margin-top: 10px;
+    
   }
 }
   
