@@ -772,6 +772,60 @@
 
     
   }
+
+  /* Common styles for all buttons */
+
+
+/* Custom styles for the specific button */
+/* Default styles for .custom-btn */
+.custom-btn {
+  background-color: rgba(255, 255, 255, 0.356);
+  color: black;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid;
+  border-color: #87dcf7;
+  border-radius: 20px;
+  font-family: poppins;
+  text-decoration: none;
+}
+
+/* Styles for screens smaller than 576px */
+@media screen and (max-width: 575px) {
+  .custom-btn {
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-size: 14px;
+  }
+}
+
+/* Styles for screens between 576px and 767px */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .custom-btn {
+    padding: 10px 18px;
+    border-radius: 18px;
+    font-size: 16px;
+  }
+}
+
+/* Styles for screens between 768px and 991px */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .custom-btn {
+    padding: 12px 22px;
+    border-radius: 22px;
+    font-size: 18px;
+  }
+}
+
+/* Styles for screens larger than or equal to 992px */
+@media screen and (min-width: 992px) {
+  .custom-btn {
+    padding: 14px 24px;
+    border-radius: 24px;
+    font-size: 20px;
+  }
+}
+
   /*
   
   .typewriter-animation {
