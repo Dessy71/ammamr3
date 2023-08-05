@@ -529,7 +529,23 @@
   /* responsive */
   
   /* extra small device */
-  @media only screen and (max-width: 600px) {}
+  @media only screen and (max-width: 600px) {
+    .hero__swiper {
+      height: 50vh;
+    }
+  
+    .hero__img {
+      height: 30vh;
+    }
+  
+    .hero__txt h2 {
+      font-size: 2rem;
+    }
+  
+    .hero__txt p {
+      margin-bottom: 0.5rem;
+    }
+  }
   
   /* small device */
   @media only screen and (max-width: 768px) {
@@ -552,6 +568,21 @@
     .category__border {
       width: 80%;
       height: 80%;
+    }
+    .hero__swiper {
+      height: 55vh;
+    }
+  
+    .hero__img {
+      height: 32vh;
+    }
+  
+    .hero__txt h2 {
+      font-size: 2.5rem;
+    }
+  
+    .hero__txt p {
+      margin-bottom: 0.75rem;
     }
   }
   
