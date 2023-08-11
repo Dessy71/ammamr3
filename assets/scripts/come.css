@@ -91,7 +91,7 @@
   
   /* header */
   header {
-    background-image: linear-gradient(to left, rgb(201, 196, 196),rgb(252, 251, 249),  rgb(228, 229, 241), rgb(18, 19, 18));
+    background-image: linear-gradient(to left,rgba(252, 251, 249, 0.733), rgba(201, 196, 196, 0.534),  rgb(44, 43, 43), rgb(75, 74, 74));
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     position: fixed;
     top: 0;
@@ -751,27 +751,7 @@
   .product-card:hover .product__info {
     background-color: rgb(78, 176, 180);
   }
-  .typewriter {
-    background: radial-gradient(circle, rgb(245, 10, 10), skyblue );
-    background-clip: text;
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent;
-    overflow: hidden; /* Hide overflowing text */
-      white-space: nowrap; /* Keep the text in one line */
-    margin-bottom: 10px; /* Add some spacing */
-    font-family: 'Poppins', sans-serif; /* Use Poppins font */
-    display: absolute;
-    text-transform: uppercase;
-    font-weight: bolder;
-    cursor: pointer;
-    position: absolute; /* Set the typewriter as absolute position */
-    left: 80px; /* Adjust the value to position the element from the left */
-    top: 50%; /* Position the element vertically in the middle of the navbar */
-    transform: translateY(-50%);
 
-
-    
-  }
 
   /* Common styles for all buttons */
 
