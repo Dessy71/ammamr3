@@ -394,7 +394,7 @@ a{
 /* Set the same background color as the body */
 /* footer section styling */
 footer{
-    background: rgb(88, 86, 86) !important;
+    background:rgb(0, 0, 0) !important;
     padding: 7px;
     color: #fff;
     text-align: center;
