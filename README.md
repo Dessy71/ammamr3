@@ -86,7 +86,7 @@ Simply visit our website https://ammamr3.vercel.app/ to access the platform.
 2. Enter your username and password.
 3. Click "Log In" to access your account.
 
-### Getting on the Landingpage
+### Getting on the Landing page
 
 1. Upon logging in, you'll be redirected to a landing page.
 2. It has an inplay video of nike shoe playing on mute and loops after itself.
