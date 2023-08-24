@@ -134,7 +134,7 @@ This project is not currently licensed.
  			</td>
  			<td style="border: none; border-top: hidden;" align="Center" width="30%">
  				<a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
- 					<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg" width="36" height="36" alt="Bootstrap CSS">
+ 					<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg" width="36" height="36" alt="Bootstrap">
  				</a> <br> Bootstrap
  			</td>
 			<td style="border: none; border-top: hidden;" align="Center" width="30%">
