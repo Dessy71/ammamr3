@@ -1,4 +1,23 @@
-# Amamrɛ Online Shop
+# AMMAMRƐ ONLINE FOOTWEAR SHOWROOM
+Welcome to the AMMAMRƐ ONLINE FOOTWEAR SHOWROOM, your ultimate destination for trendy Nike sneakers at affordable prices. 
+This README.md guide will walk you through the different processes and interactions within the web app.
+
+## Table of Contents
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Usage](#usage)
+  - [Creating an Account](#creating-an-account)
+  - [Logging In](#logging-in)
+  - [Exploring the Homepage](#exploring-the-homepage)
+  - [Browsing the Product Catalogue](#browsing-the-product-catalogue)
+  - [Purchasing](#purchasing)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Getting Started
+
+To get started with the AMMAMRƐ ONLINE FOOTWEAR SHOWROOM, ensure you have a modern web browser. 
+Simply visit our website https://ammamr3.vercel.app/ to access the platform.
 
 
 <table  style="border-collapse: collapse;">
@@ -12,14 +31,14 @@
 		<td style="border: none; border-top: hidden;" align="Center" width="50%">
  				<a href="#" target="_blank" rel="noreferrer">
  					<img src="./assets/products/read2.jpg" width="400" height="250" alt="HTML">
- 				</a> <br> home page
+ 				</a> <br> Landing page
  	</td>
 	</tr>
 	<tr>
 	<td style="border: none; border-top: hidden;" align="Center" width="50%">
  				<a href="#" target="_blank" rel="noreferrer">
  					<img src="./assets/products/read3.jpg" width="400" height="250" alt="HTML">
- 				</a> <br> Main page
+ 				</a> <br> Home page
  	</td>
 		<td style="border: none; border-top: hidden;" align="Center" width="50%">
  				<a href="#" target="_blank" rel="noreferrer">
@@ -52,6 +71,51 @@
 - Sneaker community updates on exclusive releases and collaborations.
 - Elevate your style game with Amamrɛ footwear online showroom.
 </i>
+
+## Usage
+
+### Creating an Account
+
+1. Visit the website and click on the "Sign Up" button.
+2. Fill in your details and create a unique username and password.
+3. Click "Sign Up" to create your account.
+
+### Logging In
+
+1. Click on the "Log In" button.
+2. Enter your username and password.
+3. Click "Log In" to access your account.
+
+### Getting on the Landingpage
+
+1. Upon logging in, you'll be redirected to a landing page.
+2. It has an inplay video of nike shoe playing on mute and loops after itself.
+3. There is a button with "see collection" inscription which will rediret you to the homepage.
+
+### Exploring the Homepage
+
+1. upon clicking on the "see collection" button, you will be redirected to the homepage.
+2. Discover featured products, trending releases, and community discussions.
+
+### Browsing the Product Catalogue
+
+1. Navigate to the "Product Catalogue" section.
+2. Use search and filter options to narrow down your preferences.
+3. Click on a product to view detailed information.
+
+### Purchasing
+
+1. From the product page, click on the "Buy Now" button.
+2. You'll be redirected to the linked online store for the purchase.
+3. Complete the transaction on the external site.
+
+## Contributing
+
+We welcome contributions to enhance the AMMAMRƐ ONLINE FOOTWEAR SHOWROOM. If you'd like to contribute, please follow our [contributing guidelines](CONTRIBUTING.md).
+
+## License
+
+This project is not currently licensed.
 
 # built with
 
