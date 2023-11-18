@@ -35,8 +35,6 @@
     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database.js" type="module"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
 
-
-
     <!-- Custom css link -->
     <link rel="stylesheet" href="./assets/scripts/stt.css">
     <title>amamrɛ online</title>
@@ -123,7 +121,7 @@
                             <i class="fa-brands fa-instagram"></i>
                         </a>
                         <a href="https://twitter.com/7thDesmond" class="">
-                            <i class="fa-brands fa-x-twitter"></i>
+                            <i class="fa-brands fa-twitter"></i>
                         </a>
                         <a href="https://wa.me/+233208614844/?text=Hello%20there, %20texting%20from%20Amamrɛ%20Online....%20My%20Name%20is%20__"
                             class="">
@@ -378,7 +376,6 @@
                             email: emailInput.value,
                             username: usernameInput.value,
                             password: encPass()
-
                         })
                              .then(() => {
                                 alert("User added successfully");
@@ -401,7 +398,6 @@
                 }
             });
         }
-
         // Password encryption
         function encPass() {
             var pass12 = CryptoJS.AES.encrypt(passwordInput.value, passwordInput.value);
@@ -409,17 +405,8 @@
         }
 
         // Assign the event for registration
-        submitInput.addEventListener("click", registerUser);
-
-        //redireec
-
-        
+        submitInput.addEventListener("click", registerUser);     
 
     </script>
-
-
-
-
 </body>
-
 </html>

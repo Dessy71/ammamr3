@@ -1,0 +1,41 @@
+Start
+User Choose:
+   Display "Welcome to Ammamrɛ Online Footwear Showroom!"
+   Display "Select an option:"
+   Display "[1] Create Account"
+   Display "[2] Login"
+   Input choice
+   
+If choice is "1":
+   Display "Please provide your information to create an account:"
+   Input username
+   Input password
+   Create new account using provided username and password
+   Display "Account successfully created. You are now logged in."
+
+Login (with New Account):
+   Display "Please enter your login credentials:"
+   Input enteredUsername
+   Input enteredPassword
+   If enteredUsername and enteredPassword match a created account:
+      Display "Login successful. Welcome back, username!"
+
+Display Homepage:
+   Display "Welcome to the Ammamrɛ Online Footwear Showroom!"
+   Display "Explore our latest collection of trendy Nike sneakers."
+
+Display Product Catalogue:
+   Display "Browse through our wide selection of sneakers:"
+   Display List of Sneaker Categories
+   Input selectedCategory
+
+Display Buy Tab:
+   Display "Select your favorite sneakers:"
+   Display List of Sneakers in selectedCategory
+   Input selectedSneaker
+
+Display Linked Store:
+   Display "You've chosen [selectedSneaker]."
+   Display "Click the link below to purchase directly:"
+   Display Link to Purchase
+End

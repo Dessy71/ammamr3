@@ -203,7 +203,7 @@
   .hero__txt p {
     line-height: 1.5;
     margin-bottom: 5rem;
-    background: rgb(8, 0, 255);
+    background: linear-gradient(to left, rgb(25, 211, 25),rgb(183, 26, 214), rgb(35, 35, 219));
     background-clip: text;
 -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
@@ -806,26 +806,4 @@
   }
 }
 
-  /*
   
-  .typewriter-animation {
-    animation: typewriter 3.5s steps(40) infinite;
-    
-  
-      p{	
-        font-size: 2rem;
-       
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
-      
-  
-  @keyframes typewriter {
-    from {
-      width: 45%;
-    }
-    to {
-      width: 100%;
-    }
-  }*/
